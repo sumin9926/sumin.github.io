@@ -1,0 +1,39 @@
+/* clock style */
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  height: 120px;
+  font-weight: 700;
+  padding: 5px;
+  width: auto;
+}
+.hour-min {
+  color: aliceblue;
+  float: left;
+  height: 100px;
+  font-size: 120px;
+  display: flex;
+  align-items: center;
+}
+.clock-right {
+  height: 100px;
+  float: left;
+  padding-left: 10px;
+}
+.am-pm {
+  padding-top: 5px;
+  height: 35px;
+  font-size: 35px;
+  color: rgba(253, 253, 253, 0.393);
+}
+.sec {
+  color: aliceblue;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 45px;
+}

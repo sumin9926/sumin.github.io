@@ -1,0 +1,41 @@
+.greetings {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.user-id {
+  color: #999999;
+  border: 1px solid #dddddd;
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+.submit-button {
+  border: none;
+  height: 31px;
+  width: 60px;
+  outline: none;
+  color: #fff;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgba(255, 235, 205, 0);
+}
+.submit-button:hover {
+  background-color: rgba(128, 128, 128, 0.331);
+}
+#commentary {
+  color: aliceblue;
+  text-align: center;
+  font-weight: 300;
+}

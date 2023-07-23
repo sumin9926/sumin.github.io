@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <link href="CSS/clock_style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="stylesheet" href="CSS/todolist.css" />
+    <link rel="stylesheet" href="CSS/weather.css" />
+    <link rel="stylesheet" href="CSS/background.css" />
+    <style>
+      body {
+        /* background-color: black; */
+        background-color: blueviolet;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cen">
+      <!-- greetings -->
+      <div class="greetings">
+        <h2 id="commentary" class="hidden">
+          Hello, <b class="username"></b>. Have a nice day!
+        </h2>
+        <form class="login" action="">
+          <p>please write your ID!</p>
+          <div>
+            <input
+              maxlength="15"
+              class="user-id"
+              type="text"
+              placeholder="ID"
+            />
+            <input class="submit-button" type="submit" value="Login" />
+          </div>
+        </form>
+      </div>
+
+      <!-- clock -->
+      <div class="clock">
+        <div class="hour-min">00:00</div>
+        <div class="clock-right">
+          <div class="am-pm">PM</div>
+          <div class="sec">00</div>
+        </div>
+      </div>
+
+      <!-- weather -->
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- todo list -->
+      <div class="todolist-box">
+        <form id="todo-form">
+          <input
+            id="todo-input"
+            type="text"
+            placeholder="Write a thing to do"
+          />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
+    <script src="JS/clock.js"></script>
+    <script src="JS/greetings.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/weatherAndArea.js"></script>
+    <script src="JS/background.js"></script>
+  </body>
+</html>
